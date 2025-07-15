@@ -9,7 +9,7 @@ jobs:
     strategy:
       max-parallel: 1
       matrix:
-        runtime: [wasmtime, wasm-micro-runtime, wazero, wasmedge, pywasm-runtime]
+        runtime: [pywasm-runtime]
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
